@@ -1,10 +1,10 @@
-<!html>
+<!DOCTYPE html>
 <head>
     <title>Finished Lab Work</title>
 </head>
 <body>
     Name: Ryan Johns<br>
-    Github repo<br>
+    <a href="https://github.com/RJohns1/SE266.55PHP">Github repo</a><br>
     Resources to help with php<br>
     <ul>
         <li>php.net</li>
