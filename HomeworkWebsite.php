@@ -7,9 +7,9 @@
     <a href="https://github.com/RJohns1/SE266.55PHP">Github repo</a><br>
     Resources to help with php<br>
     <ul>
-        <li>php.net</li>
-        <li></li>
-        <li></li>
+        <li><a href="http://php.net/manual/en/">php.net</a></li>
+        <li><a href="https://stackoverflow.com">stackoverflow.com</a></li>
+        <li><a href="https://www.w3schools.com/php">w3schools.com</a></li>
     </ul>
     <?php
     $file = "HomeworkWebsite.php";
