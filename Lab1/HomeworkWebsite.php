@@ -18,9 +18,9 @@
     echo "Last modified $mod_date<br>";
     ?>
     <br>
-    Lab 1: Credit Card<button>View</button><button>Code</button><br>
-    Lab 2: ???<button>View</button><button>Code</button><br>
-    Lab 3: ???<button>View</button><button>Code</button><br>
+    Lab 1: Credit Card<a href="http://ict.neit.edu/001379358/public_html/PHP/Lab1/Lab1.php">View</a><a href="http://ict.neit.edu/001379358/public_html/PHP/Lab1.zip">Code</a><br>
+    Lab 2: Actors<a href="http://ict.neit.edu/001379358/public_html/PHP/Lab2.zip">Code</a><br>
+    Lab 3: Corporation<button>View</button><button>Code</button><br>
     Lab 4: ???<button>View</button><button>Code</button><br>
     Lab 5: ???<button>View</button><button>Code</button><br>
     Lab 6: ???<button>View</button><button>Code</button><br>
