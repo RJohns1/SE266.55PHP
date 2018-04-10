@@ -1,5 +1,11 @@
 <!DOCTYPE html>
 <head>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <script
+        src="http://code.jquery.com/jquery-3.2.1.min.js"
+        integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="
+    crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
     <title>Finished Lab Work</title>
 </head>
 <body>
@@ -18,8 +24,8 @@
     echo "Last modified $mod_date<br>";
     ?>
     <br>
-    Lab 1: Credit Card<a href="http://ict.neit.edu/001379358/public_html/PHP/Lab1/Lab1.php">View</a><a href="http://ict.neit.edu/001379358/public_html/PHP/Lab1.zip">Code</a><br>
-    Lab 2: Actors<a href="http://ict.neit.edu/001379358/public_html/PHP/Lab2.zip">Code</a><br>
+    Lab 1: Credit Card <a href="http://ict.neit.edu/001379358/public_html/PHP/Lab1/Lab1.php" class="btn btn-primary">View</a> <a href="http://ict.neit.edu/001379358/public_html/PHP/Lab1.zip" class="btn btn-warning">Code</a><br>
+    Lab 2: Actors <a href="http://ict.neit.edu/001379358/public_html/PHP/Lab2.zip" class="btn btn-warning">Code</a><br>
     Lab 3: Corporation<button>View</button><button>Code</button><br>
     Lab 4: ???<button>View</button><button>Code</button><br>
     Lab 5: ???<button>View</button><button>Code</button><br>
