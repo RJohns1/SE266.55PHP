@@ -7,38 +7,18 @@
     <body>
         <h1>My Forms</h1>
         <?php
-       
-        
-        $action = filter_input(INPUT_POST, 'action');
-        
-        if ( $action === 'asc' ) {
-            $order = 'ASC';
-        }
-        if ( $action === 'desc' ) {
-            $order = 'DESC';
-        }
-        if ( $action === 'Corporation' ) {
-            $column = 'corp';
-        }
-        if ( $action === 'Email' ) {
-            $column = 'email';
-        }
-        if ( $action === 'Zipcode' ) {
-            $column = 'zipcode';
-        }
-        if ( $action === 'Owner' ) {
-            $column = 'owner';
-        }
-        if ( $action === 'Phone' ) {
-            $column = 'phone';
-        }
-        
-        if ( $action === 'Submit2' ) {
-            echo 'submited form 2';
-        }
-        
-        include './form1.php';
         include './form2.php';
+        $action = filter_input(INPUT_POST, 'action');
+
+        if ($action === 'Submit2') {
+            $password = $_POST['password'];
+            $hashed_password = sha1($password);
+            echo $password . '<br />' . $hashed_password;
+
+            if ($hashed_password != $password) {
+                echo 'no match';
+            }
+        }
         
         ?>
     </body>

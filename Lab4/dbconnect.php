@@ -4,7 +4,7 @@
  * 
  * @return PDO Object
  */  
-function getDatabase() {
+function dbconnect() {
     $dbname="se266_ryan"; 
     $username="se266_ryan";
     $pwd="1379358"; // your student id WITHOUT the zeroes
@@ -37,7 +37,3 @@ function getDatabase() {
 
     return $db;
 }
-
-
-
-
